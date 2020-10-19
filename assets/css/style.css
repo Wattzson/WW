@@ -482,11 +482,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero h2 {
-  color: #555555;
+  color: #FFF;
   margin: 5px 0 30px 0;
   font-size: 24px;
   font-weight: 400;
+  text-align: center;
+  padding: 10px 0px;
 }
+
 
 #hero .btn-get-started {
   font-family: "Roboto", sans-serif;
@@ -504,6 +507,32 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero .btn-get-started:hover {
   background: #ff1f1f;
+}
+
+#hero .btn-get-started span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+#hero .btn-get-started span:after {
+  content: '\00bb';
+  font-size: 2rem;
+  position: absolute;
+  opacity: 0;
+  top: -17px;
+  right: -20px;
+  transition: 0.5s;
+}
+
+#hero .btn-get-started:hover span {
+  padding-right: 25px;
+}
+
+#hero .btn-get-started:hover span:after {
+  opacity: 1;
+  right: 0;
 }
 
 #hero .btn-watch-video {
@@ -532,6 +561,47 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero .btn-watch-video:hover i {
   color: #f23b3b;
+}
+
+.hero-logo {
+  max-width: 100%
+}
+
+#learn-more {
+  justify-content: center;
+}
+
+.gradient-border {
+  --borderWidth: 3px;
+  background: rgb(62 62 62 / 70%);
+  position: relative;
+  border-radius: var(--borderWidth);
+}
+.gradient-border:after {
+  content: '';
+  position: absolute;
+  top: calc(-1 * var(--borderWidth));
+  left: calc(-1 * var(--borderWidth));
+  height: calc(100% + var(--borderWidth) * 2);
+  width: calc(100% + var(--borderWidth) * 2);
+  background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+  border-radius: calc(2 * var(--borderWidth));
+  z-index: -1;
+  animation: animatedgradient 3s ease alternate infinite;
+  background-size: 300% 300%;
+}
+
+
+@keyframes animatedgradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
 @media (min-width: 1024px) {
