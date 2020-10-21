@@ -7,7 +7,7 @@
 !(function($) {
   "use strict";
 
-  // Preloader
+  // Preloader - Replace #sk-folding-cube with #preloader for deafult
   $(window).on('load', function() {
     if ($('#preloader').length) {
       $('#preloader').delay(100).fadeOut('slow', function() {
