@@ -1992,6 +1992,10 @@ section {
   color: #444444;
 }
 
+.footer-justify {
+  justify-content: space-between;
+}
+
 @media (max-width: 768px) {
   #footer .copyright, #footer .credits {
     float: none;
