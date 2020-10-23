@@ -1700,7 +1700,7 @@ section {
   color: #d41515;
   border-radius: 50%;
   padding: 8px;
-  border: 2px dotted #b3d1fa;
+  border: 2px dotted #d41515;
 }
 
 .contact .info-box h3 {
@@ -1880,7 +1880,7 @@ section {
 }
 
 #footer .footer-newsletter form input[type="submit"]:hover {
-  background: #0d58ba;
+  background: #f56b6b;
 }
 
 #footer .footer-top {
