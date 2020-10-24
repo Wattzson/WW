@@ -4,6 +4,7 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
+  font-display: swap;
   color: #444444;
 }
 
@@ -18,6 +19,7 @@ a:hover {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Roboto", sans-serif;
+  font-display: swap;
 }
 
 /*--------------------------------------------------------------
@@ -268,6 +270,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
   letter-spacing: 0.8px;
   font-family: "Poppins", sans-serif;
+  font-display: swap;
 }
 
 #header .logo a {
@@ -321,6 +324,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
   padding: 0 3px;
   font-family: "Open Sans", sans-serif;
+  font-display: swap;
 }
 
 .nav-menu > ul > li > a:before {
@@ -568,6 +572,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 56px;
   color: #222222;
   font-family: "Poppins", sans-serif;
+  font-display: swap;
 }
 
 #hero h1 span {
@@ -605,6 +610,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero .btn-get-started {
   font-family: "Roboto", sans-serif;
+  font-display: swap;
   text-transform: uppercase;
   font-weight: 500;
   font-size: 14px;
@@ -998,6 +1004,7 @@ section {
   display: block;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
+  font-display: swap;
   color: #222222;
 }
 
@@ -1056,6 +1063,7 @@ section {
   padding: 0;
   margin: 0;
   font-family: "Roboto", sans-serif;
+  font-display: swap;
   font-size: 14px;
 }
 
@@ -1551,7 +1559,9 @@ section {
   color: #d41515;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
+  font-display: swap;
   margin-bottom: 20px;
+  font-display: swap;
 }
 
 .pricing .box h4 sup {
@@ -1607,6 +1617,7 @@ section {
   font-size: 14px;
   font-weight: 400;
   font-family: "Roboto", sans-serif;
+  font-display: swap;
   font-weight: 600;
   transition: 0.3s;
 }
@@ -1653,6 +1664,7 @@ section {
   display: block;
   position: relative;
   font-family: #d41515;
+  font-display: swap;
   font-size: 18px;
   font-weight: 500;
 }
@@ -1909,6 +1921,7 @@ section {
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Roboto", sans-serif;
+  font-display: swap;
   color: #777777;
 }
 
